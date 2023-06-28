@@ -1,9 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <h1>Hello World</h1>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/personalInfo.js"></script>
+    <title>Kiwon's Portfolio</title>
+</head>
+<body>
+    <header>Kiwon Song</header>
+    <div id="head">
+        <p>
+            My name is Kiwon Song, <span id="age"></span> years old
+        </p>
+    </div>
+    <div id="resume">
+        <div id="education">
+            
+        </div>
+
+        <div id="skills">
+
+        </div>
+
+        <div id="experiences">
+
+        </div>
+
+        <div id="projects">
+
+        </div>
+    </div>
+    <script>
+        document.getElementById("age").innerHTML = getAge();
+    </script>
+</body>
 </html>
