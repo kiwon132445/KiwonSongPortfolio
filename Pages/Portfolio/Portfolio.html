@@ -11,22 +11,19 @@
     <script src="/js/nav_link_manager.js"></script>
 </head>
 <body>
-    <div id="navbar" class="flex-container hide-child-block top-bottom-bar">
-      <ul class="navbar-nav flex-container">
-        <ul id="navlink-contents" class="navbar-nav flex-container">
-          <script>create_navLink("Algorithms");</script>
-        </ul>
+    <nav id="navbar" class="flex-container hide-child-block top-bottom-bar">
+      <ul id="navlink-contents" class="navbar-nav flex-container">
+        <script>create_navLink("Portfolio");</script>
       </ul>
       <div class="nav-head show-block">
         <a href="/index.html"><h2>Soothingkiwi</h1></a>
       </div>
-      <div class="search show-block">
+      <div class="search">
         <input type="text">
         <button type="button">Search</button>
       </div>
-    </div>
-    <div class="main-container-background"></div>
-    <div id="main-container">
+    </nav>
+    <div id="main-container" class="main-container-background">
       <div>
         <button type="button" onclick="InsertionSortExample()">Click Me</button>
       </div>

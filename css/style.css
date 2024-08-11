@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: rgb(63, 154, 63);
   margin:0;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .nav-link:hover, .nav-item:hover {
   text-decoration: underline;
-  background-color: rgb(69, 69, 69);
+  background-color: rgb(222, 105, 55);
 }
 
 .nav-head {
@@ -52,7 +52,10 @@ body {
 }
 
 .search {
+  display: flex !important;
+  justify-content: center;
   align-content: center;
+  flex-wrap: wrap;
   border-left: 1px white solid;
   width:20%;
 }
@@ -78,7 +81,7 @@ footer {
 }
 .top-bottom-bar {
   overflow: hidden;
-  background-color: #333333;
+  background-color: #6b4112;
   width: 100%;
 }
 .flex-container {
@@ -94,7 +97,7 @@ footer {
 }
 
 .main-container-background {
-  background-color: #606060;
+  background-color: #aec327;
   position:absolute;
   top:0;
   bottom: 0;
